@@ -250,7 +250,7 @@ $query="INSERT INTO NEWPAGE VALUES ('$username','$password')";
 $data=mysqli_query($conn,$query);
 
 if ($data) {
-    echo "DATA INSERTED INTO DATABASE";
+    // echo "DATA INSERTED INTO DATABASE";
 }
 else {
     "Failed to insert into database";
